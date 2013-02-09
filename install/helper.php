@@ -16,9 +16,11 @@ defined('_JEXEC') or die('Direct Access to this location is not allowed.');
  
 class ModTSPFacebookCommentsHelper
 {
-    /**
+    /***********
+     *
      * Returns the current url
-    */
+     *
+     ***********/
     public static function getCurrentURL()
     {
     	$juri = JURI::getInstance();

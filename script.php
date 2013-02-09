@@ -36,4 +36,5 @@ class mod_tsp_fb_commentsInstallerScript
 		JFile::delete($dir . $cleanManifestFile);
 		JFile::copy($dir . '../' . $cleanManifestFile, $dir . $cleanManifestFile);
 	}//end updateManifest
+	
 }//end mod_tsp_fb_commentsInstallerScript
