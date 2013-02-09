@@ -24,7 +24,7 @@ class ModTSPFacebookCommentsHelper
 		$current_url = $juri->current();
 		
         return $current_url;
-    } //end getURL
+    } //end getCurrentURL
  
 } //end ModTSPFacebookCommentsHelper
 ?>

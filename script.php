@@ -19,7 +19,7 @@ class mod_tsp_fb_commentsInstallerScript
 		$type = strtolower($type);
 		if ($type == 'install' || $type == 'update')
 			$this->updateManifest($parent);
-	}
+	}//end preflight
 	
 	private function updateManifest($parent)
 	{
@@ -33,5 +33,5 @@ class mod_tsp_fb_commentsInstallerScript
 
 		JFile::delete($dir . $cleanManifestFile);
 		JFile::copy($dir . '../' . $cleanManifestFile, $dir . $cleanManifestFile);
-	}
-}
+	}//end updateManifest
+}//end mod_tsp_fb_commentsInstallerScript
