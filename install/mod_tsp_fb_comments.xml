@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.6.0" type="module" method="upgrade">
+    <!-- Name of the Module -->
+	<name>The Software People - Facebook Comments</name> 
+ 
+    <!-- Name of the Author -->
+	<author>The Software People, LLC</author> 
+ 
+    <!-- Version Date of the Module -->
+	<creationDate>01 January 2013</creationDate> 
+ 
+    <!-- Copyright information -->
+	<copyright>All rights reserved by The Software People, LLC 2013.</copyright> 
+ 
+    <!-- License Information -->
+	<license>APACHE 2.0</license> 
+ 
+    <!-- Author's email address -->
+	<authorEmail>info@thesoftwarepeople.com</authorEmail> 
+ 
+    <!-- Author's website -->
+	<authorUrl>www.thesoftwarepeople.com</authorUrl> 
+ 
+    <!-- Module version number -->
+	<version>1.0.0</version> 
+ 
+    <!-- Description of what the module does -->
+	<description>MOD_TSP_FB_COMMENTS_XML_DESCRIPTION</description>
+	
+    <!-- Listing of all files that should be installed for the module to function -->
+	<files>
+        <!-- The "module" attribute signifies that this is the main controller file -->
+		<filename module="mod_tsp_fb_comments">mod_tsp_fb_comments.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>LICENSE</filename>
+		<filename>LICENSES</filename>
+		<folder>tmpl/</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_tsp_fb_comments.ini</language>
+	</languages>
+   	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="section_label"
+					type="text"
+					default=""
+					label="MOD_TSP_FB_COMMENTS_SECTION_LABEL"
+					description="MOD_TSP_FB_COMMENTS_SECTION_DESC" />
+				<field
+					name="data_num_posts"
+					type="text"
+					default="10"
+					label="MOD_TSP_FB_COMMENTS_NUM_POSTS_LABEL"
+					description="MOD_TSP_FB_COMMENTS_NUM_POSTS_DESC" />
+				<field
+					name="data_width"
+					type="text"
+					default="960"
+					label="MOD_TSP_FB_COMMENTS_BLOCK_WIDTH_LABEL"
+					description="MOD_TSP_FB_COMMENTS_BLOCK_WIDTH_DESC" />
+				<field
+					name="data_colorscheme"
+					type="list"
+					default="light"
+					label="MOD_TSP_FB_COMMENTS_SHOW_COLORSCHEME_LABEL"
+					description="MOD_TSP_FB_COMMENTS_SHOW_COLORSCHEME_DESC">
+					<option value="light">Light</option>
+					<option value="dark">Dark</option>
+				</field>
+				<field
+					name="data_orderby"
+					type="list"
+					default="social"
+					label="MOD_TSP_FB_COMMENTS_SHOW_ORDERBY_LABEL"
+					description="MOD_TSP_FB_COMMENTS_SHOW_ORDERBY_DESC">
+					<option value="social">Social</option>
+					<option value="time">Date/Time (Oldest to Most Recent)</option>
+					<option value="reverse_time">Date/Time (Most Recent to Oldest)</option>
+				</field>
+				<field
+					name="data_mobile"
+					type="list"
+					default="auto-detect"
+					label="MOD_TSP_FB_COMMENTS_SHOW_MOBILE_LABEL"
+					description="MOD_TSP_FB_COMMENTS_SHOW_MOBILE_DESC">
+					<option value="auto-detect">Auto-Detect (Recommended)</option>
+					<option value="true">True</option>
+					<option value="false">False</option>
+				</field>
+				<field
+					name="data_send"
+					type="list"
+					default="true"
+					label="MOD_TSP_FB_COMMENTS_SHOW_SEND_LABEL"
+					description="MOD_TSP_FB_COMMENTS_SHOW_SEND_DESC">
+					<option value="true">True</option>
+					<option value="false">False</option>
+				</field>
+				<field
+					name="data_show_faces"
+					type="list"
+					default="true"
+					label="MOD_TSP_FB_COMMENTS_SHOW_FACES_LABEL"
+					description="MOD_TSP_FB_COMMENTS_SHOW_FACES_DESC">
+					<option value="true">True</option>
+					<option value="false">False</option>
+				</field>
+				<field
+					name="data_action"
+					type="list"
+					default="like"
+					label="MOD_TSP_FB_COMMENTS_LIKE_LABEL_LABEL"
+					description="MOD_TSP_FB_COMMENTS_LIKE_LABEL_DESC">
+					<option value="like">Like</option>
+					<option value="recommend">Recommend</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</install>
