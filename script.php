@@ -14,7 +14,7 @@
 
 defined('_JEXEC') or die('Restricted access');
 
-class mod_tsp_fb_commentsInstallerScript
+class mod_tsp_facebook_commentsInstallerScript
 {
 	function preflight($type, $parent)
 	{
@@ -37,4 +37,4 @@ class mod_tsp_fb_commentsInstallerScript
 		JFile::copy($dir . '../' . $cleanManifestFile, $dir . $cleanManifestFile);
 	}//end updateManifest
 	
-}//end mod_tsp_fb_commentsInstallerScript
+}//end mod_tsp_facebook_commentsInstallerScript

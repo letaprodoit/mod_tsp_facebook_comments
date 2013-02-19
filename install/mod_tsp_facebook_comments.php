@@ -3,7 +3,7 @@
  * TSP Facebook Comments Joomla! module
  *
  * @package		TSP Facebook Comments Joomla! module
- * @filename	mod_tsp_fb_comments.php
+ * @filename	mod_tsp_facebook_comments.php
  * @version		1.0.0
  * @author		Sharron Denice, The Software People, LLC on 2013/02/09
  * @copyright	Copyright © 2013 The Software People, LLC (www.thesoftwarepeople.com). All rights reserved
@@ -37,5 +37,5 @@ $section_label = $params->get('section_label');
 $data_href = ModTSPFacebookCommentsHelper::getCurrentURL();
  
 // Step #4: include the template for display
-require(JModuleHelper::getLayoutPath('mod_tsp_fb_comments'));
+require(JModuleHelper::getLayoutPath('mod_tsp_facebook_comments'));
 ?>
