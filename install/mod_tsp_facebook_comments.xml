@@ -50,6 +50,12 @@
 					label="MOD_TSP_FB_COMMENTS_SECTION_LABEL"
 					description="MOD_TSP_FB_COMMENTS_SECTION_DESC" />
 				<field
+					name="app_id"
+					type="text"
+					default=""
+					label="MOD_TSP_FB_APP_ID_LABEL"
+					description="MOD_TSP_FB_APP_ID_DESC" />
+				<field
 					name="data_num_posts"
 					type="text"
 					default="10"

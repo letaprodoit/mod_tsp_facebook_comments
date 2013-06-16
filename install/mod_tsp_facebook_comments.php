@@ -24,6 +24,7 @@ $data_width = $params->get('data_width');
 $data_colorscheme = $params->get('data_colorscheme');
 $data_orderby = $params->get('data_orderby');
 $data_mobile = $params->get('data_mobile');
+$data_app_id = $params->get('data_app_id');
 
 // Like plugin settings
 $data_send = $params->get('data_show_send');
