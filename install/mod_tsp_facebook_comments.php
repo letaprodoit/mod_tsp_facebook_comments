@@ -6,7 +6,7 @@
  * @filename	mod_tsp_facebook_comments.php
  * @version		1.0.0
  * @author		Sharron Denice, The Software People, LLC on 2013/02/09
- * @copyright	Copyright ï¿½ 2013 The Software People, LLC (www.thesoftwarepeople.com). All rights reserved
+ * @copyright	Copyright © 2013 The Software People, LLC (www.thesoftwarepeople.com). All rights reserved
  * @license		GNU Public License v3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
  * @brief		module loader
  * 
