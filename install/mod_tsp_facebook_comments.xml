@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<install version="1.0.0" type="module" method="upgrade">
+<extension version="3.0" type="module" method="upgrade" client="site">
     <!-- Name of the Module -->
 	<name>The Software People - Facebook Comments</name> 
  
@@ -126,4 +126,7 @@
 			</fieldset>
 		</fields>
 	</config>
-</install>
+	<updateservers>
+	   <server type="collection">http://www.thesoftwarepeople.com/plugins/joomla/plugins.xml</server>
+	</updateservers>
+</extension>
